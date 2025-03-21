@@ -1,0 +1,172 @@
+:root {
+    --main-color: #dba38d;
+}
+
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: RGBA(243, 229, 216, 255);
+}
+
+.countainer {
+    background-color: #FFFFFF;
+    width: 78%;
+    height: 80%;
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-bottom: 8%;
+    padding: 50px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.imge {
+    padding: 0;
+    margin: 0;
+}
+
+.imge img {
+    width: 98%;
+}
+
+
+
+.countainer .text .a7a {
+    color: #9c4dac;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: RGBA(243, 229, 216, 255);
+    border-radius: 6px;
+    padding: 10px 5px;
+}
+
+@media (max-width:767px) {
+    .countainer {
+        margin: 0;
+        padding: 0;
+        width: 85vw;
+        border-radius: 0;
+        padding-left: 50px;
+    }
+
+
+    .img img {
+        padding-right: 50px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .countainer .text .a7a {
+        padding: 2%;
+        /* margin: 1%; */
+        border-radius: 40px;
+        width: 75vw;
+    }
+}
+
+@media (max-width:485px) {
+    .countainer {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border-radius: 0;
+
+    }
+}
+
+.countainer .text ul {
+    font-size: 14px;
+    list-style-position: inherit;
+    color: rgb(63, 62, 62);
+}
+
+.countainer .text h2 {
+    margin-bottom: 20px;
+    color: #dba38d;
+    font-size: 22px;
+}
+
+.countainer .text ol li {
+    color: rgb(63, 62, 62);
+    word-wrap: break-word;
+}
+
+.countainer .text .content div {
+    padding-right: 44%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
